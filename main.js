@@ -121,8 +121,9 @@ function init(){
         '2': {0:'copsLock',1:'A',2:'S',3:'D',4:'F',5:'G',6:'H',7:'J',8:'K',9:'L',10:'; :',
             11:'\' \"',12:'return enter',length:13},
         '3': {0:'shift',1:'Z',2:'X',3:'C',4:'V',5:'B',6:'N',7:'M',8:', <',9:'. >',10:'/ ?',11:'shift',length:12},
-        '4':{0:'fn',1:'control',2:'alt',3:'⌘ command',4:'Space',5:'command ⌘',6:'alt',7:'↑',8:'←',9:'↓',10:'→',length:11},
-        'length': 5
+        '4':{0:'fn',1:'control',2:'alt',3:'⌘ command',4:'Space',5:'command ⌘',6:'alt',7:'←',8:'↓',9:'→',length:10},
+        '5':{0:'↑',length:1},
+        'length': 6
     }
 
 

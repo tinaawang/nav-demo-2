@@ -88,16 +88,13 @@ li:hover >#Digit7,li:hover >#Digit8,li:hover >#Digit9,li:hover >#Digit0{
   /*  margin: 0 6px 6px 0;*/
 
 }
-.row:after{
+/*.row:after{
     content: ' ';
     display: block;
     clear: both;
-}
-
-.row:nth-child(5){
+}*/
 
 
-}
 
 
 .kbb >.text{  /*文本*/
@@ -236,28 +233,44 @@ li:hover >#Digit7,li:hover >#Digit8,li:hover >#Digit9,li:hover >#Digit0{
 #Semicolon >.text2{
     left:34px;
 }
-#right,#up,#down,#left{
+ #right,#left{
 
-   width:25px;
-    heigth:50px;
+
+    height:38px;
 
 }
+#down{
+    height:34px;
+}
 
-#right  >.text,#up  >.text,#down  >.text,#left >.text{
-    font-size: 20px;
-    top:24px;
-    left: 20px;
+#right  >.text{
+top:3px;
+    left:30px;
+}
 
+#up > .text {
+    top: 3px;
+    left: 30px;
+}
+#down  >.text{
+    top: 3px;
+}
+#left >.text{
+    top:3px;
+    left:30px;
 
 }
 
 #up{
-   /* margin: 0 83px 3px;
+    height:34px;
+    left:481px;
+    top:-90px;
     border-radius: 8px 8px 0px 0px;
-    */
 
 }
+
+
 #down {
-   /* border-radius: 0 0 8px 8px;*/
+    border-radius: 0 0 8px 8px;
 }
 
